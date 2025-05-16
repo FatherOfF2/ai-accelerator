@@ -303,7 +303,8 @@ check_repo(){
       echo "Your working repo ${GIT_REPO}, matches your cluster overlay branch ${APP_REPO}"
     else 
 
-      GITHUB_URL="https://github.com/${GIT_REPO_BASENAME}.git"
+      #GITHUB_URL="https://github.com/${GIT_REPO_BASENAME}.git"
+      GITHUB_URL="${GIT_REPO_BASENAME}.git"
 
       echo
       echo "Your current working repo is"
