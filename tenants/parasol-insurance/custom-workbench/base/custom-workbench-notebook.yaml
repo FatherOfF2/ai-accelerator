@@ -58,7 +58,7 @@ spec:
             - name: JUPYTER_IMAGE
               value: 'image-registry.openshift-image-registry.svc:5000/redhat-ods-applications/custom-notebook:latest'
  #           - name: PIP_CERT
-              value: /etc/pki/tls/custom-certs/ca-bundle.crt
+ #             value: /etc/pki/tls/custom-certs/ca-bundle.crt
  #           - name: REQUESTS_CA_BUNDLE
  #             value: /etc/pki/tls/custom-certs/ca-bundle.crt
  #           - name: SSL_CERT_FILE
