@@ -78,7 +78,7 @@ spec:
             - mountPath: /dev/shm
               name: shm
 #            - mountPath: /etc/pki/tls/custom-certs/ca-bundle.crt
-#             name: trusted-ca
+#              name: trusted-ca
 #              readOnly: true
 #              subPath: ca-bundle.crt
           workingDir: /opt/app-root/src
